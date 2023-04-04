@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.twitter {
+  background: #55acee;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.container {
+  margin: 0;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* The Third */
+.con-01 {
+  background: gray;
+  position: relative;
+  flex: 1;
+  max-width: 100%;
+  height: 150px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* The Second */
+.con-02 {
+  /* background: black; */
+  position: relative;
+  flex: 1;
+  max-width: 480px;
+  height: auto;
+  margin: 10px;
+  /* border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); */
+}
+.me {
+  margin-top: 30px;
+  padding: 25px;
+  margin: 25px;
+  color: black;
+}
+.pictures img {
+  width: 40%;
+  margin: 15px;
+  transition: transform 0.2s;
+}
+.pictures img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+/* The first. from the top */
+.con-03 {
+  position: relative;
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-image: url(https://wallpapers.com/images/featured/l4bjrhl8d4u3ddd7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.images {
+  max-width: 460px;
+  position: relative;
+  flex: 1;
+}
+.images img {
+  width: 350px;
+  border-radius: 5px;
+  margin: 25px;
+}
+.content {
+  position: relative;
+  flex: 1;
+  margin: 50px 25px;
+  max-width: 460px;
+  color: white;
+  align-items: center;
+}
+h1 {
+  font-family: "Caveat", cursive;
+  font-size: 80px;
+}
+h3 {
+  font-family: "Caveat", cursive;
+  font-size: 40px;
+}
+
+/* the fourth */
+.con-04 {
+  position: relative;
+  flex: 1;
+  max-width: 600px;
+  height: auto;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.hobby {
+  text-align: center;
+}
+.hob {
+  text-align: center;
+}
+li {
+  align-items: center;
+  padding: 10px;
+  margin-left: 30px;
+}
+.con-05 {
+  position: relative;
+  flex: 1;
+  max-width: 600px;
+  height: 50px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+a p {
+  color: #3b5998;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 14px;
+}
+a p:hover {
+  cursor: pointer;
+  color: grey;
+}
+.col-00{
+  position: relative;
+  flex: 1;
+  max-width: 100%;
+  height: 100px;
+  margin: 10px;
+  background: linear-gradient( white, black);
+}
+
+@media (max-width: 800px) {
+  .con-00 {
+    flex: 100%;
+    max-width: 600px;
+  }
+  .con-01 {
+    flex: 100%;
+    max-width: 600px;
+  }
+  .con-02 {
+    flex: 100%;
+    max-width: 600px;
+  }
+  .con-03 {
+    flex: 100%;
+    max-width: 600px;
+  }
+  .con-04 {
+    flex: 100%;
+    max-width: 600px;
+  }
+  .con-05 {
+    flex: 100%;
+    max-width: 600px;
+  }
+}
